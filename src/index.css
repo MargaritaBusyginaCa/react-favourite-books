@@ -19,12 +19,12 @@ body {
 h1{
   font-size:3rem;
   color: rgb(211, 211, 211);
-  text-align: center;
+  text-align: left;
 }
 .book-component{
-  background-color: rgb(255, 255, 255);
   display: flex;
   margin: 0.7rem;
+  background-color: rgb(209, 189, 165);
   border-radius: 10px;
   box-shadow:  0 5px 15px rgba(139, 117, 117, 0.4);;
 }
@@ -54,7 +54,7 @@ img{
     justify-content: center;
     align-items: center;
     height: 250px;
-    background-color: rgb(209, 189, 165);
+    
     
   }
   img{
