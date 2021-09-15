@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@100;200;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
 *{
   box-sizing: border-box;
 }
@@ -11,25 +9,24 @@ body {
   width: 100%;
   height: 100vh;
   overflow-y:hidden;
-  /* background-color: rgb(252, 246, 239); */
+  font-family: 'Poppins';
+  background-color: rgb(71, 53, 75);
 }
 .main-container{
   margin: 0 auto;
   width: 80%;
 }
 h1{
-  font-family: 'Libre Baskerville';
   font-size:3rem;
-  color: rgb(180, 76, 76);
+  color: rgb(211, 211, 211);
   text-align: center;
 }
 .book-component{
   background-color: rgb(255, 255, 255);
   display: flex;
-  font-family: 'Poppins';
   margin: 0.7rem;
   border-radius: 10px;
-  box-shadow:  0 5px 15px rgba(0, 0, 0, 0.4);;
+  box-shadow:  0 5px 15px rgba(139, 117, 117, 0.4);;
 }
 img{
   height: 200px;
@@ -56,14 +53,15 @@ img{
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 270px;
+    height: 250px;
+    background-color: rgb(209, 189, 165);
     
   }
   img{
     border-radius: 0;
     justify-self: center;
     position: absolute;
-    bottom: 120px;
+    bottom: 100px;
     border-radius: 23px;
   }
   .book-info{
@@ -73,10 +71,5 @@ img{
   }
 }
 
-.book-component:nth-child(even){
-  background-color: rgba(252,238,238,255);
- }
- .book-component:nth-child(odd){
-  background-color:rgb(252, 228, 200);
- }
+
 
