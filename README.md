@@ -7,7 +7,7 @@ You can test it at https://dazzling-snyder-bf9b52.netlify.app/
 
 ### Screenshot
 
-![](./screenshot-birdbox.PNG)
+![](./fav-books-react-webpage.PNG)
 
 
 
